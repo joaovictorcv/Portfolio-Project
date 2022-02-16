@@ -1,0 +1,15 @@
+.wrapper-footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.wrapper-footer .twitter{
+    padding-right: 40px;
+}
+
+.wrapper-footer .youtube{
+    padding-right: 40px;
+}
