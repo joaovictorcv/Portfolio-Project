@@ -219,15 +219,15 @@
             <div class="main-contact">
                 <form class="" action="">
                     <label for="input-nome">Nome</label>
-                    <input class="borderInput" type="text" id="input-nome">
+                    <input class="borderInput" type="text" id="input-nome" required maxlength="25" minlength="2"> <!--maxlenght e o minlenght faz o que o formulario tenha um maximo e minimo de letras. -->
 
                     <label for="input-email">Email</label>
-                    <input class="borderInput" type="email" id="input-email">
+                    <input class="borderInput" type="email" id="input-email" required maxlength="50">
 
                     <label for="textAreaMensagem">Mensagem</label>
-                    <textarea class="borderInput" name="textAreaMensagem" id="textAreaMensagem" rows="10" cols="200"></textarea>
+                    <textarea class="borderInput" name="textAreaMensagem" id="textAreaMensagem" required rows="10" cols="200" maxlength="350"></textarea>
 
-                    <a class="button-contact" href="">Enviar</a>
+                    <button class="button-contact">Enviar</button>
                 </form>
             </div>
 
